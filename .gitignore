@@ -2,3 +2,4 @@ node_modules
 dist
 .vscode
 mopidy_last_player/static
+mopidy_last_player/__pycache__
