@@ -1,0 +1,28 @@
+{
+  "name": "last-player",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:dhaynespls/last-player.git",
+  "author": "David Haynes",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^8.0.13",
+    "@types/react": "^15.0.38",
+    "@types/react-dom": "^15.5.1",
+    "awesome-typescript-loader": "^3.2.1",
+    "css-loader": "^0.28.4",
+    "node-sass": "^4.5.3",
+    "path": "^0.12.7",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "sass-loader": "^6.0.6",
+    "source-map-loader": "^0.2.1",
+    "style-loader": "^0.18.2",
+    "typescript": "^2.4.1",
+    "webpack": "^3.3.0",
+    "webpack-dev-server": "^2.5.1"
+  },
+	"scripts": {
+		"dev": "webpack --watch"
+	}
+}
