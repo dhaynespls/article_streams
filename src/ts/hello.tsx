@@ -9,7 +9,7 @@ import * as React from "react";
   React.Component<props, state>
 */
 export class Clock extends React.Component<null, {date: Date}> {
-  timerID: NodeJS.Timer;
+  timerID: any;
 
   constructor() {
     // Class components should always call the base constructor with props.
@@ -37,8 +37,8 @@ export class Clock extends React.Component<null, {date: Date}> {
   render(): JSX.Element {
     return (
       <div>
-        <h1>Hello, world!</h1>
-        <h2>It is {this.state.date.toLocaleTimeString()}.</h2>
+        <h3>Hello, world!</h3>
+        <p>It is {this.state.date.toLocaleTimeString()}.</p>
       </div>
     );
   }
