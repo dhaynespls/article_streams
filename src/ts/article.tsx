@@ -5,7 +5,7 @@ export function Article() {
     <div>
       <div className="card">
         <div className="card-block">
-            <p>Lorem ipsum dolor sit amet</p>
+            <p><strong>Lorem ipsum dolor sit amet</strong></p>
             <br />
             <p>Duis aute irure dolor in reprehenderit
             <br />voluptate velit esse cillum

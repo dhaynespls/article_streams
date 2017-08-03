@@ -1,6 +1,7 @@
 import * as React from "react";
 
 import { Article } from './article'
+import { HeadArticle } from './head_article'
 
 export function Stream(props: {name: string, bump: string, reason: string}) {
   return (
@@ -8,6 +9,8 @@ export function Stream(props: {name: string, bump: string, reason: string}) {
       <p className="text-muted"><strong>{props.name}</strong> &bull; {props.reason}</p>
       <div className="card">
         <div className="card-block">
+          <HeadArticle />
+          <br />
           <div className="row">
             <div className="row-4 nudge">
               <Article />
