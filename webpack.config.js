@@ -3,7 +3,7 @@ module.exports = {
 
     output: {
         filename: "bundle.js",
-        path: __dirname + "/mopidy_last_player/static"
+        path: __dirname + "/my_washpost_site/static"
     },
 
     // Enable sourcemaps for debugging webpack's output.
