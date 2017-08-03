@@ -1,11 +1,24 @@
 import * as React from "react";
 
-export function Stream() {
+import { Article } from './article'
+
+export function Stream(props: {name: String}) {
   return (
     <div className="bump">
-      <p>Stream Name goes here</p>
-      <div className="card stream">
+      <p>{props.name}</p>
+      <div className="card">
         <div className="card-block">
+          <div className="row">
+            <div className="row-4 nudge">
+              <Article />
+            </div>
+            <div className="row-4 nudge">
+              <Article />
+            </div>
+            <div className="row-4 nudge">
+              <Article />
+            </div>
+          </div>
         </div>
       </div>         
     </div>

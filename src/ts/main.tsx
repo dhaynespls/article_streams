@@ -8,10 +8,10 @@ export function Main() {
   return (
     <div className="container">
       <Nav />
-      <Stream />
-      <Stream />
-      <Stream />
-      <Stream />
+      <Stream name="test"/>
+      <Stream name="test2"/>
+      <Stream name="test3"/>
+      <Stream name="test4"/>
       <Footer />
    </div>
   );

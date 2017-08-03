@@ -1,19 +1,13 @@
-$font-stack:
-  // Safari for OS X and iOS (San Francisco)
-  -apple-system,
-  // Chrome >= 56 for OS X (San Francisco), Windows, Linux and Android
-  system-ui,
-  // Chrome < 56 for OS X (San Francisco)
-  BlinkMacSystemFont,
-  // Windows
-  "Segoe UI",
-  // Android
-  "Roboto",
-  // Basic web fallback
-  "Helvetica Neue", Arial, sans-serif !default;
-
+$font-stack : // Safari for OS X and iOS (San Francisco)
+-apple-system, // Chrome >= 56 for OS X (San Francisco), Windows, Linux and Android
+system-ui, // Chrome < 56 for OS X (San Francisco)
+BlinkMacSystemFont, // Windows
+"Segoe UI", // Android
+"Roboto", // Basic web fallback
+"Helvetica Neue",
+Arial,
+sans-serif !default;
 $primary-color: #333;
-
 html {
   font: 100% $font-stack;
 }
@@ -22,8 +16,9 @@ body {
   color: $primary-color;
   background-color: #efefef;
 }
+
 .navbar-color {
-  background: rgba(0,0,0,0.96);
+  background: rgba(0, 0, 0, 0.96);
 }
 
 .bump {
@@ -32,4 +27,8 @@ body {
 
 .stream {
   padding-bottom: 150px;
+}
+
+.nudge {
+  padding-left: 10px;
 }
