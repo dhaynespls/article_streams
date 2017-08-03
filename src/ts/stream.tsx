@@ -24,7 +24,7 @@ export function Stream(props: {name: string, bump: string, reason: string}) {
               <br />
               <br />
               <br />
-              <button type="button" className="btn btn-sm btn-primary">></button>
+              <button type="button" className="btn btn-sm btn-inverse">></button>
             </div>
           </div>
         </div>
