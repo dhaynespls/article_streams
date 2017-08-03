@@ -1,12 +1,12 @@
 import * as React from "react";
 import * as ReactDOM from "react-dom";
 
-import { Clock } from "./ts/hello";
+import { Nav } from "./ts/nav";
 
 require('./scss/global.scss');
 
 ReactDOM.render(
-  <Clock />,
+  <Nav />,
 
   // Render to <div id="root"></div>
   document.getElementById("root")
