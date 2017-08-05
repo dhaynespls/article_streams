@@ -3,7 +3,7 @@ module.exports = {
 
     output: {
         filename: "bundle.js",
-        path: __dirname + "/my_washpost_site/static"
+        path: __dirname + "/article_streams/static"
     },
 
     // Enable sourcemaps for debugging webpack's output.

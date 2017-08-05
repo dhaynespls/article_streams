@@ -6,7 +6,7 @@ export function Nav() {
         <nav className="navbar navbar-toggleable-sm navbar-inverse navbar-color fixed-top">
           <div className="container">
             <a className="navbar-brand d-flex mx-auto" href="#">
-              The Washington Post
+              Article Streams Demo
             </a>
           </div>
         </nav>
